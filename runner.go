@@ -24,9 +24,8 @@ func reEnterDetails(errorText string, cliMessage string, scanner *bufio.Scanner)
 	if option == "y" || option == "Y" || errorText == ErrorName {
 		scanner.Scan()
 		return scanner.Text()
-	} else {
-		return ""
 	}
+	return ""
 }
 
 func sanitizeInput(input string) string {

@@ -3,7 +3,7 @@ package main
 // Opening line
 const Opening = "This utility will guide you through setting up a python package"
 
-// Confirmation message
+// ConfirmationMessage : message at the end of providing details
 const ConfirmationMessage = "Are there details correct? [y/n]"
 
 // PackageName : file and folder name
